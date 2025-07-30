@@ -1,0 +1,4 @@
+models/cnn_out/cnn_protein_autoencoder.h5 filter=lfs diff=lfs merge=lfs -text
+data/SMILES_Autoencoder/all_smiles_revised.csv filter=lfs diff=lfs merge=lfs -text
+data/SMILES_Autoencoder/all_smiles_revised_final.csv filter=lfs diff=lfs merge=lfs -text
+data/SMILES_Autoencoder/all_smiles.csv filter=lfs diff=lfs merge=lfs -text
