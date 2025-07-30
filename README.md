@@ -10,7 +10,7 @@ Details about how to obtain the training and test set for the predictive models 
 
 We consider the DENV virus as a use-case and provide ranked list of compounds based on the 3 main proteases:
 
-a) NS1 protein 
+a) NS1 protein  
 b) NS3 protein  
 c) NS5 protein  
 
