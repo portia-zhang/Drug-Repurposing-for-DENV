@@ -124,9 +124,9 @@
    
 该脚本筛选 SMILES 长度在 10-128 且不含盐桥的唯一化合物，最终在 `all_verified_keys.list` 中得到 1482 个化合物。
 
-1. 登革热病毒与宿主相互作用的数据来源于 DenvInd 数据库（ICGEB，印度），该数据库专注于收录经实验验证和计算预测的 [DENV-宿主分子互作](http://bioinfo.icgeb.res.in/denvind/)，最终合并到 `all_verified_keys.list` 中得到 1960 个化合物。
+3. 登革热病毒与宿主相互作用的数据来源于 DenvInd 数据库（ICGEB，印度），该数据库专注于收录经实验验证和计算预测的 [DENV-宿主分子互作](http://bioinfo.icgeb.res.in/denvind/)，最终合并到 `all_verified_keys.list` 中得到 1960 个化合物。
 
-2. 准备 DENV 端到端深度学习测试集：
+4. 准备 DENV 端到端深度学习测试集：
 
    `python denv_preprocessing.py denv.fasta all_verified_keys.list denv_Compound_Viral_interactions_for_Supervised_Learning.csv`
    
